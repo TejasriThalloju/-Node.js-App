@@ -8,7 +8,4 @@ phases:
       - npm install
   build:
     commands:
-      - echo "Build completed successfully."
-artifacts:
-  files:
-    - '**/*'
+      - echo "Build phase complete"
